@@ -1,0 +1,65 @@
+# Basic
+title: Lee Ray
+subtitle: Ride,boldly ride,if you aim for Eldorado!
+welcome_message: Welcome to Lee's homepage
+description: Computer science is a pop culture
+creator: <a href="http://onev.cat">@lee ray</a>
+
+url: "http://vno.onevcat.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# port
+port: 80
+
+# host
+host: 0.0.0.0
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: slate
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    # - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: l2eray
+    github: Leedorado
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
+
+# Valine Comments
+valine_comment:
+  enable: true
+# app_id
+  leancloud_appid: 
+# app_key
+  leancloud_appkey: 
+# placeholde
+  placeholder: 欢迎评论~
+
+comment:
+    disqus：false
